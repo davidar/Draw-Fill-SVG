@@ -97,7 +97,7 @@
 
       // reset opacities
       path.style.fillOpacity = 0;
-      path.style.strokeOpacity = 1;
+      path.style.strokeOpacity = 0.5;
 
       // reset transitions
       path.style.transition = path.style.WebkitTransition = "none";
@@ -109,6 +109,7 @@
 
       // apply new transitions
       path.style.transition = path.style.WebkitTransition = "stroke-dashoffset 2s ease-in-out";
+      path.style.transitionDelay = path.style.WebkitTransitionDelay = i + 's';
 
       // go baby go
       path.style.strokeDashoffset = 0;
