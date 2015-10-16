@@ -1,7 +1,3 @@
-## Working Demo
-
-You probably want to see a working demo for what this plugin does, so here it is - [http://callmenick.com/tutorial-demos/draw-fill-svg/](http://callmenick.com/tutorial-demos/draw-fill-svg/).
-
 ## About This Plugin
 
 I couldn't think of a better name for my plugin, so I called it "Draw Fill SVG". In a nutshell, it performs three tasks: 
